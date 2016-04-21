@@ -14,7 +14,7 @@
  */      
 var DataTable = function(tablediv, titles, url, method, userdata, datakey, columns, delurl, updateurl, addurl){
 	var _this = this;      
-	var tableEle; 
+	var tableEle;       
 	
 	/*
 	 *	一个表格应当包含的属性：表格的标题、表格的内容、表格的事件按钮（按钮组）。
@@ -265,6 +265,7 @@ var DataTable = function(tablediv, titles, url, method, userdata, datakey, colum
 			values = null;      
 			return;   
 		}
+
 		// 保存数据
 		if(btn.html() == '确定'){
 			btn.html('改');
@@ -323,7 +324,7 @@ var DataTable = function(tablediv, titles, url, method, userdata, datakey, colum
 		})       
 	}  
  
-    // 根据当前元素查找祖先元素，ansc为向上层级数   
+  // 根据当前元素查找祖先元素，ansc为向上层级数   
 	function childFindAnce(child, ansc){  
 		var result = child;   
 		for(var i = 0; i < ansc; i++){       

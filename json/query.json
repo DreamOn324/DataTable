@@ -1,0 +1,43 @@
+{
+	"status": 1,
+	"msg": {
+		"请求失败"
+	},
+	"data": [
+		{
+			"id": 1,
+			"name": "Jason",
+			"sex": "男",
+			"age": 20,
+			"identy": "学生" 
+		},
+		{
+			"id": 2,
+			"name": "Rose",
+			"sex": "女",
+			"age": 20,
+			"identy": "学生" 
+		},
+		{
+			"id": 3,
+			"name": "Jack",
+			"sex": "男",
+			"age": 21,
+			"identy": "学生" 
+		},
+		{
+			"id": 4,
+			"name": "Poal",
+			"sex": "男",
+			"age": 35,
+			"identy": "老师" 
+		},
+		{
+			"id": 5,
+			"name": "Han",
+			"sex": "男",
+			"age": 45,
+			"identy": "校长" 
+		}
+	]
+}
