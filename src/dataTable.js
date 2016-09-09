@@ -26,7 +26,7 @@ var DataTable = function(tablediv, titles, url, method, userdata, datakey, colum
 	_this.addBtns;
 	_this.delbBtns; 
 	_this.modBtns;       
-                 
+                  
 	/**
 	 * 初始化表格，并提交请求。
 	 */               
