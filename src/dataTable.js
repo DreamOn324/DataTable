@@ -11,7 +11,7 @@
  * @param {String} delurl 删除数据的接口
  * @param {String} updateurl 更新数据的接口 
  * @param {String} addurl 增加新数据的接口
- */      
+ */       
 var DataTable = function(tablediv, titles, url, method, userdata, datakey, columns, delurl, updateurl, addurl){
 	var _this = this;      
 	var tableEle; 
@@ -161,7 +161,7 @@ var DataTable = function(tablediv, titles, url, method, userdata, datakey, colum
 	}
     
 	var newTds = null;     // 新增行的单元格数量     
-	for(var i = 0; i < titles.length; i++){        
+	for(var i = 0; i < titles.length; i++) {        
 		newTds += '<td><input type="text"/></td>';         
 	}                
 	_this.oneRow = '<tr>' + newTds +            
